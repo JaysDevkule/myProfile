@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> registration data</title>
+    </head>
+    <body>
+        <h3> student registration form </h3>
+        <form>
+            <table>
+                <tbody>
+                    <tr>
+                        <td><label  for="Firstname">first name</label></td>
+                        <td><input type="text" id="Firstname"  placeholder="only with first name"></td>
+                    </tr>
+                
+                    <tr>
+                        <td><label for="Lastname">last name</label></td>
+                        <td><input type="text" id="Lastname"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="MobileNumber">Mobile number</label></td>
+                        <td><input type="number" id="MobileNumber" autofocus required maxlength="10" placeholder="with country code"></td>
+                    </tr>
+                    <tr>
+                        <td><label>email</label></td>
+                        <td><input type="email" required></td>
+                    </tr>
+                    <tr>
+                        <td><label>password</label></td>
+                        <td><input type="password" required></td>
+                    </tr>
+                    <tr>
+                        <td>country</td>
+                        <td><input type="text" value="india" readonly disabled></td>
+                    </tr>
+                  
+                    <tr>
+                        <td><label>Do you have bank account</label></td>
+                        <td><input type="text" value="yes" disabled> </td>
+                    </tr>
+                    <tr>
+                        <td><label>please select training</label></td>
+                        <td>
+                            <input type="checkbox">
+                            <label>Angular</label>
+
+                            <input type="checkbox">
+                            <label>Java</label>
+
+                            <input type="checkbox">
+                            <label>Testing</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Date of Birth</label></td>
+                        <td><input type="date"></td>
+                    </tr>
+                    <br>
+                    <tr>
+                        <td><label>Available in week</label></td>
+                        <td><input type="week"></td>
+                    </tr>
+                    <br>
+                    <tr>
+                        <td><label>Preferred time</label></td>
+                        <td><input type="time"></td>
+                    </tr>
+                    <br>
+                    <tr>
+                        <td><label>Select profile photo</label></td>
+                        <td><input type="file"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Gender</label></td>
+                        <td>
+                            <input type="radio" name="gender">
+                            <label>female</label>
+                            <input type="radio" name="gender"> 
+                            <label>male</label>
+                            <input type="radio" name="gender">
+                            <label>transgender</label>
+                        </td>
+                    </tr>
+                    <br>
+                    <tr>
+                        <td><label>Address</label></td>
+                        <td><textarea cols="20" rows="10"></textarea>
+                    </tr>
+                    <tr>
+                        <td><input type="submit"></td>
+                    
+                        <td><input type="reset"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+        
+        
+    </body>
+</html>
